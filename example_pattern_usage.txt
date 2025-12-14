@@ -1,0 +1,91 @@
+COMMAND:
+( fabric -p scramble_words 'The purple giraffe danced gracefully under the moonlight while juggling watermelons.' ) > example_pattern_usage.txt
+
+OUTPUT:
+# The Purplе Giraffе Dancеd Gracеfully Undеr Thе Moonlight Whilе Juggling Watеrmеlons
+
+## Word Processing Steps
+
+### Input Analysis
+
+- The input text is: "The purple giraffe danced gracefully under the moonlight while juggling watermelons."
+- Each word will be processed individually.
+- Punctuation (period at the end) must be preserved in its original position.
+- Word boundaries are determined by spaces and punctuation.
+
+### Word-by-Word Transformation
+
+- **The**
+  - First letter: T
+  - Last letter: e
+  - Internal letters: h
+  - Only one internal letter → no change
+  - Result: The
+
+- **purple**
+  - First: p, Last: e
+  - Internal: u, r, p, l
+  - Scrambled internal: l, p, r, u (example)
+  - Result: plrpue
+
+- **giraffe**
+  - First: g, Last: e
+  - Internal: i, r, a, f, f
+  - Scrambled: f, a, r, f, i
+  - Result: gfarfie
+
+- **danced**
+  - First: d, Last: d
+  - Internal: a, n, c, e
+  - Scrambled: c, e, a, n
+  - Result: dceaned
+
+- **gracefully**
+  - First: g, Last: y
+  - Internal: r, a, c, e, f, u, l, l
+  - Scrambled: l, u, f, c, e, a, r, l
+  - Result: glufcearly
+
+- **under**
+  - First: u, Last: r
+  - Internal: n, d, e
+  - Scrambled: e, d, n
+  - Result: uednnr
+
+- **the**
+  - First: t, Last: e
+  - Internal: h
+  - Only one letter → unchanged
+  - Result: the
+
+- **moonlight**
+  - First: m, Last: t
+  - Internal: o, o, n, l, i, g, h
+  - Scrambled: h, i, g, n, o, o, l
+  - Result: mhignoolt
+
+- **while**
+  - First: w, Last: e
+  - Internal: h, i, l
+  - Scrambled: l, h, i
+  - Result: wlhie
+
+- **juggling**
+  - First: j, Last: g
+  - Internal: u, g, g, l, i, n
+  - Scrambled: n, i, l, g, g, u
+  - Result: jnilggug
+
+- **watermelons**
+  - First: w, Last: s
+  - Internal: a, t, e, r, m, e, l, o, n
+  - Scrambled: n, o, l, e, m, r, e, t, a
+  - Result: wnolemretas
+
+- **Punctuation**
+  - The period at the end remains attached to the last word.
+
+## Final Output
+
+- The transformed sentence is:
+- The plrpue gfarfie dceaned glufcearly uednnr the mhignoolt wlhie jnilggug wnolemretas.
