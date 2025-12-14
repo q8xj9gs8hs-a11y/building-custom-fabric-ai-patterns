@@ -4,11 +4,11 @@ Documenting the process of creating custom patterns for `fabric-ai`
 Outline the process of constructing your own pattern for use with `fabric-ai`
 
 # Prerequisites
-- `fabric-ai` is installed
+- `fabric-ai` is installed ([repository here](https://github.com/danielmiessler/fabric?tab=readme-ov-file#just-use-the-patterns))
 - A model is configured
 - Default patterns are installed / configured
 ##### Optional:
-Since we are dealing with markdown files, you can use `mcat` instead of `cat` to view rendered markdown. To install with `Homebrew`:
+Since we are dealing with markdown files, you can use `mcat` ([repository here](https://github.com/Skardyy/mcat)) instead of `cat` to view rendered markdown. To install with `Homebrew`:
 ```
 brew install mcat
 ```
