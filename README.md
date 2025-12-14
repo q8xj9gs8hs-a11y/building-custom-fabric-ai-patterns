@@ -7,6 +7,11 @@ Outline the process of constructing your own pattern for use with `fabric-ai`
 - `fabric-ai` is installed
 - A model is configured
 - Default patterns are installed / configured
+##### Optional:
+Since we are dealing with markdown files, you can use `mcat` instead of `cat` to view rendered markdown. To install with `Homebrew`:
+```
+brew install mcat
+```
 
 # Setup
 
